@@ -4,7 +4,7 @@ Brian kiptoo
 # DESCRIPTION
 This project replaces any instance of the word cat, with the word dog
 # LINK
-Click [here]() to view the project.
+Click [here](https://mighty-castle-45636.herokuapp.com/) to view the project.
 # LICENCE
 Copyright (c) [2016] [Brian Kiptoo]
 
