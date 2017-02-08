@@ -1,11 +1,12 @@
 class String
   define_method(:find_replace) do
-    
-    letters = ["cat","cat","me"]
 
+    letters = self.split(" ")
+    find = "cat"
+    replace = "dog"
     for letter in letters
-      if letters.include?("cat")
-        letter.gsub!(letter,"dog")
+      if letter.eql?(find)
+        letter.gsub!(letter,replace)
       end
     end
     letters.join(" ")
