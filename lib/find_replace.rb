@@ -2,10 +2,9 @@ class String
   define_method(:find_replace) do
 
     letters = self.split(" ")
-    find = "cat"
     replace = "dog"
     for letter in letters
-      if letter.eql?(find)
+      if letter.eql?("cat")
         letter.gsub!(letter,replace)
       end
     end
